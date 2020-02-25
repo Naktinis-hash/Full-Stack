@@ -8,7 +8,20 @@ $h1 = "Keliones skaiciuokle";
 $li_1 = "Nuvaziuota distancija $distance";
 $li_2 = "Sunaudota $fuel_total l kuro";
 $li_3 = "Kaina $price_trip pinigu";
+
+$class = 'mustang';
 ?>
+
+<style>
+    div {
+        width: 200px;
+        height: 300px;
+        background-size: cover;
+    }
+    .mustang {
+        background-image: url("https://s.aolcdn.com/dims-global/dims3/GLOB/legacy_thumbnail/640x400/quality/80/https://s.aolcdn.com/commerce/autodata/images/USC80FOC051A021001.jpg");
+    }
+</style>
 
 <html>
 <head>
@@ -31,4 +44,5 @@ $li_3 = "Kaina $price_trip pinigu";
     <li><?php print $li_3; ?></li>
 </ul>
 <div class="dacia"></div>
+<div class="<?php print $class; ?>"></div>
 </body>
