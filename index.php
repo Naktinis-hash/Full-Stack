@@ -12,7 +12,7 @@ $li_3 = "Kaina $price_trip pinigu";
 
 <html>
 <head>
-    <title>Trash</title>
+    <title>Speed & power</title>
 </head>
 <body>
 <h1><?php print $h1; ?></h1>
